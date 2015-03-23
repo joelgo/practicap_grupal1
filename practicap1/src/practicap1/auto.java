@@ -15,6 +15,7 @@ public class auto extends vehiculo{
    float placa;
    String diseño;
    String num_asientos;
+
    
    public auto(String color, String marca, float placa, String diseño, String num_asientos){
    this.color=color;

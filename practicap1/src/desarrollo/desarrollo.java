@@ -6,11 +6,19 @@
 
 package desarrollo;
 
+import practicap1.auto;
+
 /**
  *
  * @author USUARIO
  */
 public class desarrollo {
-
+public static void main(String[] args) {
+    
+   auto p= new auto("color"," marca", 4667, "diseño", "num_asientos"); 
+   p.procesar();
+   
+}
+    
     
 }
