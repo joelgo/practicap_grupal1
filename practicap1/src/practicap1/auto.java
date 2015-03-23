@@ -15,15 +15,17 @@ public class auto extends vehiculo{
    float placa;
    String diseño;
    String num_asientos;
-
+   String i;
+   String j;
    
-   public auto(String color, String marca, float placa, String diseño, String num_asientos){
+   public auto(String color, String marca, float placa, String diseño, String num_asientos, String i,String j){
    this.color=color;
    this.marca=marca;
    this.placa=placa;
    this.diseño=diseño;
    this.num_asientos=num_asientos;
-   
+   this.i=i;
+    this.j=j;
    }
 
     /*public String getColor() {
@@ -43,9 +45,12 @@ public class auto extends vehiculo{
     }*/
 
   public void procesar(){
-      this.encender();
-     
       
+      if(i.equals(j)){this.encender();}
+      
+      else{ this.apagar();}
+      
+  
   }
     }
 

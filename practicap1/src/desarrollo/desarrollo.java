@@ -15,14 +15,11 @@ import practicap1.auto;
 public class desarrollo {
 public static void main(String[] args) {
     
-   auto p= new auto("color"," marca", 4667, "diseño", "num_asientos"); 
+   auto p= new auto("color"," marca", 4667, "diseño", "num_asientos","0","0"); 
    p.procesar();
    
 }
     
-    
-    public static void main(String[] args) {
-        
-    }
+  
     
 }
