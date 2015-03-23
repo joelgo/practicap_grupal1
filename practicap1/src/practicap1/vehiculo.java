@@ -15,8 +15,11 @@ public class vehiculo {
     public void encender(){
     
     System.out.println("el vehiculo se encendio");
+          
+    }
+    public void apagar(){
     
-    
+    System.out.println("el vehiculo se apago");
     
     }
     
