@@ -24,4 +24,11 @@ public class vehiculo {
     }
     
     
+     public void encender(String marca){
+    
+    System.out.println("el vehiculo " + marca + " se encendio :)");
+          
+    }
+    
+    
 }
