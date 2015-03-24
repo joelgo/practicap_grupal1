@@ -20,6 +20,13 @@ public class  Avión extends vehiculo {
      this.encender(marca);
     
     }
+    
+    
+    
+    
+    
+    
+    
    
     
 }

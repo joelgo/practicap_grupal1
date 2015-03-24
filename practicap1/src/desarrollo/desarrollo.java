@@ -9,14 +9,11 @@ package desarrollo;
 import practicap1.Avión;
 import practicap1.auto;
 
-/**
- *
- * @author USUARIO
- */
+
 public class desarrollo {
 public static void main(String[] args) {
     
-   auto p= new auto("color"," marca", 4667, "diseño", "num_asientos","0","0"); 
+   auto p= new auto("color"," marca", 4667, "diseño", "num_asientos","0","0","no"); 
    p.procesar();
    
    Avión a= new Avión ("juanito");

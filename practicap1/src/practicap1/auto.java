@@ -9,7 +9,7 @@ package practicap1;
  *
  * @author CARDENAS
  */
-public class auto extends vehiculo{
+public class auto extends vehiculo implements pasajero{
    String color;
    String marca;
    float placa;
@@ -17,8 +17,9 @@ public class auto extends vehiculo{
    String num_asientos;
    String i;
    String j;
+   String k;
    
-   public auto(String color, String marca, float placa, String diseño, String num_asientos, String i,String j){
+   public auto(String color, String marca, float placa, String diseño, String num_asientos, String i,String j,String k){
    this.color=color;
    this.marca=marca;
    this.placa=placa;
@@ -26,23 +27,10 @@ public class auto extends vehiculo{
    this.num_asientos=num_asientos;
    this.i=i;
     this.j=j;
+    this.k=k;
    }
 
-    /*public String getColor() {
-        return color;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public String getDiseño() {
-        return diseño;
-    }
-
-    public String getNum_asientos() {
-        return num_asientos;
-    }*/
+   
 
   public void procesar(){
       
@@ -50,7 +38,30 @@ public class auto extends vehiculo{
       
       else{ this.apagar();}
       
+      if(k.equals("si"))
+      {
+         this.num_asiento(); 
+      } else {
+      
+      this.mensaje();
+      }
   
   }
+  
+  
+  
+   @Override
+  public void num_asiento()
+  {
+      System.out.println(" el numero de asiento del pasajero es 109");
+  }
+   @Override
+   
+    public void mensaje()
+    {
+        System.out.println("Usted no pago su pasaje !!!!!!");
+    }
+    
+    
     }
 
